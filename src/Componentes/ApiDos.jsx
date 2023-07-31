@@ -20,7 +20,7 @@ const ApiDos = () =>{
         .then(respuesta => respuesta.json())
         .then(respuesta => setPersonajes(respuesta.results))
         /* .then(respuesta => console.log(personaje)) */
-    }, [])
+    })
 
 
     const imprimir = () =>{
